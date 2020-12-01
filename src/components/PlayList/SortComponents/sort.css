@@ -1,0 +1,19 @@
+
+select.sort{
+max-width:160px;
+  padding: 4px;
+  font-size: 17px;
+  font-weight:bold;
+  border: 1px solid transparent;
+  border-radius:3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(images/sort.png) 96%/20px no-repeat #cdd0d6;
+ 
+}
+
+select.sort > option:first-child{
+	display:none;
+}
+

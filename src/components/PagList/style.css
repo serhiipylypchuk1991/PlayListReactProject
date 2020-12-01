@@ -1,0 +1,10 @@
+/*Устанавливает курсор при наведение на элементы пагинации*/
+li>span{
+cursor:pointer
+}
+
+/*Предотвращает выделение кнопок пагинации*/
+.unselecteble{
+	-moz-user-select:none;
+    -webkit-user-select:none;
+}

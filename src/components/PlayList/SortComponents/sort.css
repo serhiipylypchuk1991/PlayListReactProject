@@ -10,10 +10,9 @@ max-width:160px;
   -moz-appearance: none;
   appearance: none;
   background: url(images/sort.png) 96%/20px no-repeat #cdd0d6;
- 
+
 }
 
 select.sort > option:first-child{
-	display:none;
+	//display:none;
 }
-

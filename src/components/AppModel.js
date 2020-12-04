@@ -82,7 +82,8 @@ class AppModel extends React.Component{
 		// eslint-disable-next-line
 		var alphabet_sorted_arr = this.state.db_data.sort(function(a, b){
 
-			var nameA = a[row_name].toLowerCase(), nameB = b[row_name].toLowerCase();
+			var nameA = a[row_name].toLowerCase(),
+					nameB = b[row_name].toLowerCase();
 			if(reverse === "A-Z"){//Реализуется сортировка по возростанию (a-z) false
 				if(nameA < nameB){
 					return -1;
@@ -105,6 +106,7 @@ class AppModel extends React.Component{
 			}
 
 		});
+
 		//Меняем состояние объекта нашого плейлиста
 		this.setState({
 			db_data: alphabet_sorted_arr,

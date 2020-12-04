@@ -21,6 +21,28 @@ class OptionsModel extends React.Component{
 	cleanOptions(){
 		this.options = [];
 	}
+
+	//Сортирует массив в алфавитном порядке от А до Z, а затем возвращает его
+	alphabetSorting(current_arr){
+
+			//Сортирует массив в алфавитном порядке от А до Z
+			current_arr.sort(function(a, b){
+
+				if(a < b){
+						return -1;
+				}
+				if(a > b){
+						return 1;
+				}else{
+						return 0;
+				}
+
+			});
+
+		return current_arr;
+
+	}
+
 }
 
 //export default - дает возможность использовать компонент OptionsModel в других файлах

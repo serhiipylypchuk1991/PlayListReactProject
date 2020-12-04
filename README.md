@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Play List React Project - приложение построено на асинхронной работе с базой данных.
+Интерфейс приложения позволяет сортировать информацию по столбцам таблицы плейлиста в алфавитном порядке и обратно, а также по возрастанию и убыванию годов.
+Функционал приложения расширен возможностью фильтрации плейлиста по исполнителям, жанрам и годам.
+Для удобства использования предусмотрена возможность изменения количество отображаемых элементов на странице и постраничный вывод с удобной пагинацией.
+
+Stack:
+- Front-end: JavaScript, React, Ajax, HTML/CSS
+- Back-end: PHP, MySQL
+
 ## Available Scripts
 
 In the project directory, you can run:

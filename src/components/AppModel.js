@@ -153,7 +153,7 @@ class AppModel extends React.Component{
 
 		var url = "http://localhost/play-list-app/src/api/index.php";
 		//var url = "http://pylypchukprojects.of.by/static/php/index.php";
-		//var url = "http://playlistproject.pylypchukprojects.of.by/static/php/index.php";
+		//var url = "http://playlistreactproject.pylypchuk-projects.site/static/php/index.php";
 
         fetch(url,{
 					method:"POST", //Метод запроса

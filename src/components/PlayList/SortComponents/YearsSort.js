@@ -22,7 +22,7 @@ class YearsSort extends SortModel{
 					>
 
 						<option value = "year">Год</option>
-						<option value = 'toincrease' >По возростанию</option>
+						<option value = 'toincrease' >По возрастанию</option>
 						<option value = 'todecrease' >По убыванию</option>
 
 					</select>

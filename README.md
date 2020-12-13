@@ -1,9 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Play List React Project - приложение построено на асинхронной работе с базой данных.
-Интерфейс приложения позволяет сортировать информацию по столбцам таблицы плейлиста в алфавитном порядке и обратно, а также по возрастанию и убыванию годов.
-Функционал приложения расширен возможностью фильтрации плейлиста по исполнителям, жанрам и годам.
-Для удобства использования предусмотрена возможность изменения количество отображаемых элементов на странице и постраничный вывод с удобной пагинацией.
+PlayList React Project - the application is built on asynchronous work with the database.
+
+The App interface allows sorting information by the columns of the playlist table in alphabetical order and vice versa, as well as in ascending and descending order of years.
+
+The functionality of the application is expanded with the ability to filter the playlist by artist, genre, and year.
+
+For easy to use, it is possible to change the number of displayed elements on a page and paginated output convenient pagination.
 
 Stack:
 - Front-end: JavaScript, React, Ajax, HTML/CSS
